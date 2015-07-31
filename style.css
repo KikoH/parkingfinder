@@ -40,8 +40,13 @@ html, body {
 
 @media screen and (max-width: 820px), screen and (max-height: 640px) {
 	#map-canvas {
-		margin: auto;
-		width: 50%;
-		height: 50%;
+		margin: 0 2% 0 2%;
+		width: 90%;
+		height: 90%;
+	}
+
+	#pac-input {
+		width: 95%;
+		margin-top: 3%;
 	}
 }
